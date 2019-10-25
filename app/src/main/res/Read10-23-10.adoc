@@ -1,0 +1,70 @@
+== implements -&gt; GridView
+
+[setMinimumHeight]
+- [开发文档]( https://www.developer.android.google.cn) +
+- data ？ 0-&gt;显示的data source -&gt;should show at the rv -2.view ? +
+[source.java]
+printf("hello word");
+
+== step
+- ac 里面 fragment -> 真正的了解就是看源代码
+
+- Fight 刨析activity的相册文件
+
+- jar包封装 -> 编写gradle 脚本
+
+``java``
+
+task sourcesJar(type: Jar) {
+from android.sourceSets.main.java.sourceFiles
+classifier = 'sources'
+}
+
+artifacts {
+archives sourcesJar
+}
+
+task sourcesJar(type: Jar){
+from android.sourceSets.main.javr.sourceFiles
+classifier = 'sources'
+}
+artifacts{
+    archives sourcesJar
+    }
+
+
+``java``
+
+
+
+
+
+
+== Human->shortcomings
+- form 2019年10月23日20点25分 除了任务 没有人性 开始 学无止境
+
+- 不要有人性 -> 一丝都不要有
+
+- android code api->字典 文件-> source code -> all code
+
+- 每日记录打卡 人性不需要有 唯一的快乐 就是 mission
+
+- look 理解 敲
+
+- thinkChanged -> I don't person
+
+- 看代码基本姿态需要有    ，不要多想
+
+== exception
+- Q:Attempt to invoke virtual method 'android.content.Context android.widget.ImageView.getContext()' on a null object reference
+- A：try catch->之后
+- .Q：NullPointerException: Attempt to invoke virtual method 'com.bumptech.glide.BitmapRequestBuilder com.bumptech.glide.BitmapTypeRequest.listener(com.bumptech.glide.request.RequestListener)' on a null object reference
+- A：-> catch ->crash
+
+- rootProject.ext.minSdkVersion -> 获取系统版本号自动进行配置
+
+- source -> code build.gradlew -> ext 配置project 文件
+
+- 修改配置 rebuild
+- 封装 jar 包 user news Jar
+- 解决 自己生成依赖库文件

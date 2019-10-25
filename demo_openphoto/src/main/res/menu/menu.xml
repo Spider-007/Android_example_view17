@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_glide" android:title="@string/glide"/>
+    <item android:id="@+id/menu_fresco" android:title="@string/fresco"/>
+    <item android:id="@+id/menu_picasso" android:title="@string/picasso"/>
+</menu>

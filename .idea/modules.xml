@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android_soure_library_code-boxing.iml" filepath="$PROJECT_DIR$/android_soure_library_code-boxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boxing/boxing-boxing.iml" filepath="$PROJECT_DIR$/boxing/boxing-boxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boxing-impl/boxing-impl.iml" filepath="$PROJECT_DIR$/boxing-impl/boxing-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_openphoto/demo_openphoto.iml" filepath="$PROJECT_DIR$/demo_openphoto/demo_openphoto.iml" />
+    </modules>
+  </component>
+</project>

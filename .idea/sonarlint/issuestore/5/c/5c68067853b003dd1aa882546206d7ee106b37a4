@@ -1,0 +1,6 @@
+
+Rsquid:S1141¨"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+bsquid:S2142w"FEither re-interrupt this method or rethrow the "InterruptedException".(ÜöÊ³øÿÿÿÿ
+^squid:S2142¯"FEither re-interrupt this method or rethrow the "InterruptedException".(åÅç“
+csquid:S2142Ù"FEither re-interrupt this method or rethrow the "InterruptedException".(ÜöÊ³øÿÿÿÿ
+Gsquid:S2093æ"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ

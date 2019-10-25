@@ -1,0 +1,4 @@
+
+Vsquid:S1118"":Add a private constructor to hide the implicit public one.(ã–âÉùÿÿÿÿ
+[squid:S25830"DChange this condition so that it does not always evaluate to "false"(¡ÜÔÁ
+]squid:S2142<"FEither re-interrupt this method or rethrow the "InterruptedException".(åÅç“
